@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assessment Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Assessment Management System</h1>
+
+    <section class="add-assessment">
+      <h2>Add New Assessment</h2>
+      <form id="assessmentForm">
+        <input type="text" id="title" placeholder="Assessment Title" required />
+        <textarea id="description" placeholder="Description" required></textarea>
+        <button type="submit">Add Assessment</button>
+      </form>
+    </section>
+
+    <section class="assessment-list">
+      <h2>Assessments</h2>
+      <ul id="assessments"></ul>
+    </section>
+  </div>
+
+  <!-- JavaScript linked at the bottom -->
+  <script src="script.js" defer></script>
+</body>
+</html>
